@@ -150,4 +150,4 @@ This configuration **serves as the foundation** for the following DNS implementa
 
 ---
 
-**Next part:**
+**Next part:** [DNS Configuration on Windows Server](03-DNS-configuration-on-windows-server.md)
