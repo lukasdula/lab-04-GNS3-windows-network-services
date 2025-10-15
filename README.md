@@ -2,9 +2,11 @@
 
 ## **Introduction and Objectives**
 
-This lab connects three essential Windows Server network services: **DHCP**, **HTTP (IIS)**, and **DNS**. Each service is configured step by step to create a working local network where devices receive automatic IP addresses, access a web page, and resolve names through DNS. 
+This lab connects three essential Windows Server network services: DHCP, HTTP (IIS), and DNS. The environment consists of three virtual machines — one Windows Server 2022 acting as the main server, and two Windows 10 Enterprise clients.
 
-The goal is to understand how these Windows components interact in one complete environment.
+Each service is configured step by step to create a fully functional local network where devices automatically receive IP addresses, access a hosted web page, and resolve names through DNS.
+
+The goal is to understand how these Windows components interact in one unified network environment.
 
 
 ![TOPOLOGY-map](images/Pasted%20image%2020251015230020.png)
