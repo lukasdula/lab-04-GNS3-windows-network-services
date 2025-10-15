@@ -25,7 +25,7 @@ The objectives are:
 
 ## Lab Structure
 
-1. DHCP Configuration on Windows-Server
+1. [DHCP Configuration on Windows-Server](01-dhcp-configuration-on-windows-server.md)
     
 2. HTTP Configuration on Windows-Server
     
