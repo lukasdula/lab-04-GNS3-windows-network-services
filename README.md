@@ -29,7 +29,7 @@ The objectives are:
     
 2. [HTTP Configuration on Windows-Server](02-http-configuration-on-windows-server.md)
     
-3. [DNS Configuration on Windows Server](
+3. [DNS Configuration on Windows Server](03-DNS-configuration-on-windows-server.md)
     
 
 
