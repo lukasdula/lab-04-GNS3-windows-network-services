@@ -137,5 +137,5 @@ The DNS configuration on Windows Server successfully translates hostnames to IP 
 
 ---
 
-**Back to project overview:** README
+**Back to project overview:** [README](README.md)
 
