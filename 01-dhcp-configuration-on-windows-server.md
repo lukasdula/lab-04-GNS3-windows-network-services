@@ -130,5 +130,5 @@ The DHCP configuration on Windows-Server was completed successfully. Both client
 
 ---
 
-**Next part:** **HTTP Configuration on Windows-Server**
+**Next part:** [HTTP Configuration on Windows-Server](02-http-configuration-on-windows-server.md)
 
