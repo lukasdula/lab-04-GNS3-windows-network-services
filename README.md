@@ -53,7 +53,7 @@ The objectives are:
 
 ## Author’s Note
 
-In this lab, I learned how to set up key Windows functions for the first time. It was a great experience to run three Windows virtual machines and make all three services work together successfully. Seeing DHCP, HTTP, and DNS integrated and communicating properly felt like building a small, realistic IT environment from scratch.
+In this lab, I learned how to set up key Windows functions for the first time. It was a great experience to run three Windows virtual machines and make all three services work together successfully. Seeing DHCP, HTTP, and DNS integrated and communicating properly felt like building a small, realistic IT environment from the beginning.
 
 ---
 
