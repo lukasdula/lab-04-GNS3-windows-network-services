@@ -46,7 +46,7 @@ The objectives are:
     
 - DHCP Option 006 distributing DNS automatically
     
-- Browser access through http://server.lab04.local confirming full service connectivity
+- Browser access via the address server.lab04.local, confirming full service connectivity.
     
 
 
