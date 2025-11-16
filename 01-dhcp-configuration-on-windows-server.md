@@ -95,7 +95,7 @@ arp -a
 ipconfig /renew
 ipconfig /all
 ```
-![verify-3](../Pasted%20image%2020251010212455.png)
+
 
 ```
 ping 192.168.10.10
