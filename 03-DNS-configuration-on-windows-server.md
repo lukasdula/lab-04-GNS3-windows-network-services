@@ -1,10 +1,15 @@
 
 # 3 - **DNS Configuration on Windows Server**
+
+<br><br>
+
 ### 3.1 Introduction
 
 The Domain Name System (DNS) service provides name resolution between hostnames and IP addresses. In this configuration, the Windows Server acts as the DNS server for the lab network, allowing clients to reach the web server by name (server.lab04.local) instead of using its IP address.
 
 ![TOPOLOGY-map-3](images/Pasted%20image%2020251015224430.png)
+
+<br><br>
 
 ## 3.2 Network Topology
 
@@ -15,8 +20,7 @@ The Domain Name System (DNS) service provides name resolution between hostnames 
 | WPC2<br>       | Ethernet0 | SW1                        | Gi0/2 (SW1)    | DHCP (192.168.10.100–150) | 255.255.255.0 |
 | SW1            | –         | Windows-Server, WPC1, WPC2 | –              | –                         | –             |
 
-
-
+<br><br>
 
 ## 3.3 Steps
 
@@ -32,7 +36,7 @@ The Domain Name System (DNS) service provides name resolution between hostnames 
     
 6. Verify that DNS service is running on Windows Server and that clients receive DNS configuration from DHCP and resolve the server name.
 
-
+<br><br>
 
 ## 3.4 Configuration (Windows Server)
 
@@ -66,6 +70,7 @@ The DHCP server is configured to automatically assign the DNS server address (19
 
 ![DHCP-integration](images/Pasted%20image%2020251015215337.png)
 
+<br><br>
 
 ## 3.5 Verification
 
@@ -129,7 +134,7 @@ http://server.lab04.local
 
 The IIS default page loads successfully, confirming that DNS and HTTP integration are fully operational.
 
-
+<br><br>
 
 ## 3.6 Conclusion
 
