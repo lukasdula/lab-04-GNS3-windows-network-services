@@ -1,11 +1,15 @@
 
 # 2 - **HTTP Configuration on Windows-Server**
 
+<br><br>
+
 ## **2.1 Introduction**  
 
 This section describes the setup of the **HTTP (IIS) service** on Windows-Server in the same offline local network previously used for DHCP. The goal is to host a simple local web service accessible by both Windows clients (WPC1 and WPC2) through their dynamically assigned IP addresses. The Windows-Server acts as a web host with a static IP and preconfigured DHCP functionality.
 
 ![TOPOLOGY-map-2](images/Pasted%20image%2020251014215842.png)
+
+<br><br>
 
 ## **2.2 Topology**
 
@@ -16,8 +20,7 @@ This section describes the setup of the **HTTP (IIS) service** on Windows-Server
 | WPC2<br>       | Ethernet0 | SW1                        | Gi0/2 (SW1)    | DHCP (192.168.10.100–150) | 255.255.255.0 |
 | SW1            | –         | Windows-Server, WPC1, WPC2 | –              | –                         | –             |
 
-
-
+<br><br>
 
 ## **2.3 Steps**
 
@@ -36,8 +39,7 @@ This section describes the setup of the **HTTP (IIS) service** on Windows-Server
 7. Verify that both clients can access the web page using the server IP:  
     `http://192.168.10.10`
     
-
-
+<br><br>
 
 ## **2.4 Configuration (Windows-Server)**
 
@@ -77,6 +79,7 @@ http://192.168.10.10
 
 The default **Internet Information Services (IIS)** welcome page appears, confirming that the HTTP service is available, port 80 is open, and the server successfully responds to client connections.
 
+<br><br>
 
 ## **2.5 Verification
 
@@ -140,6 +143,7 @@ Both clients successfully accessed the default IIS web page hosted on the Window
 
 ---
 
+<br><br>
 
 ### 2.6 Conclusion
 
