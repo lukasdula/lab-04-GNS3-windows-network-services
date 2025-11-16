@@ -1,10 +1,14 @@
 # 1 - **DHCP Configuration on Windows-Server**
 
+<br><br>
+
 ## **1.1 Introduction**
 
 This section focuses on setting up the DHCP service on Windows-Server in an offline local network. The objective is to automatically assign IP addresses to the connected Windows clients (WPC1 and WPC2) within the subnet 192.168.10.0/24. The Windows-Server operates with a static IP address, while both clients receive their configurations dynamically through DHCP.
 
 ![TOPOLOGY-map-1](images/Pasted%20image%2020251010212218.png)
+
+<br><br>
 
 ## **1.2 Topology**
 
@@ -14,6 +18,8 @@ This section focuses on setting up the DHCP service on Windows-Server in an offl
 | WPC1           | Ethernet0 | SW1                        | Gi0/1 (SW1)    | DHCP (192.168.10.100–150) | 255.255.255.0 |
 | WPC2<br>       | Ethernet0 | SW1                        | Gi0/2 (SW1)    | DHCP (192.168.10.100–150) | 255.255.255.0 |
 | SW1            | –         | Windows-Server, WPC1, WPC2 | –              | –                         | –             |
+
+<br><br>
 
 ## **1.3 Steps**
 
@@ -28,6 +34,8 @@ This section focuses on setting up the DHCP service on Windows-Server in an offl
 5. On **all machines** (server and clients), enable the firewall rule “File and Printer Sharing (Echo Request – ICMPv4-In)
     
 6. Verify connectivity between the server and clients using ping and DHCP address assignment.
+
+<br><br>
 
 ## **1.4 Configuration (Windows-Server)**
 
@@ -48,6 +56,7 @@ DHCP Service Status: Running
 ```
 ![DHCP-SCOPE](images/Pasted%20image%2020251010212308.png)
 
+<br><br>
 
 ## **1.5 Verification (Diagnostics)**
 
@@ -123,6 +132,7 @@ All devices obtained IP addresses from the DHCP server and successfully communic
 >**Notes.:** To enable ping communication between the Windows Server and both clients, it was necessary to manually enable the **“File and Printer Sharing (Echo Request – ICMPv4-In)”** rules in **Windows Defender Firewall** for all profiles (**Domain**, **Private**, and **Public**).  
 Once enabled, ICMP traffic was allowed, and the network devices could successfully respond to ping requests during verification.
 
+<br><br>
 
 ## **1.6 Conclusion**
 
